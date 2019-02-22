@@ -1,4 +1,4 @@
-import argparse
+import argparse 
 import subprocess
 
 
@@ -9,6 +9,7 @@ def point_release(version):
 
 
 def main():
+    #create a version number
     parser = argparse.ArgumentParser(description='Bump version number')
     parser.add_argument('version')
     args = parser.parse_args()
